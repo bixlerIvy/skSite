@@ -10,20 +10,21 @@
 }
 
 .topnav{
-    background-color: rgb(147 137 212);
-    z-index: 1;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-    position: relative;
-    text-shadow: none;
+    background : #D9CBC5;
+    background : rgba(217, 203, 197, 1);
+    position : relative ;
+    margin-left : auto;
+    margin-right : auto;
+    max-width : 368px;
+    top : 8px;
+    border-radius : 20px;
+    -moz-border-radius : 20px;
+    -webkit-border-radius : 20px;
 }
 .topnav a{
     float: center;
     color:rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none; 
     font-size: 17px;
 }
@@ -34,16 +35,29 @@
 }
 
 .topnav a.active{
-    background-color: grey;
+    background-color: #6F5886;
+    height : 32px;
+    border-radius : 16px;
+    border-color : #D9CBC5;
+    -moz-border-radius : 16px;
+    -webkit-border-radius : 16px;
+    font-family : Brother 1816;
+    font-size : 18px;
     color: white;
 }
 
 .dropdownItem{
-    border: none;
-    padding: 14px 16px;
-    font-size: 17px;
-    background-color: rgb(147	137	212);
-
+    background : #D9CBC5;
+    width : 80px;
+    height : 32px;
+    border-radius : 16px;
+    border-color : #D9CBC5;
+    -moz-border-radius : 16px;
+    -webkit-border-radius : 16px;
+    font-family : Brother 1816;
+    font-size : 18px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
 }
 
 .dropdown{
@@ -60,7 +74,6 @@
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(8,8,8,.2);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 
